@@ -1,3 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    Strings resources
+
+    @author Quentin22
+-->
 <resources>
-    <string name="app_name">News Le Monde</string>
+    <string name="app_name">Le Monde News</string>
+    <string name="error_refresh_news">Unable to refresh news</string>
+    <string name="content_desc">Image news</string>
 </resources>

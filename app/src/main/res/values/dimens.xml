@@ -1,5 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    Dimensions resources
+
+    @author Quentin22
+-->
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="padding_textview_title_item">15dp</dimen>
+    <dimen name="padding_textview_desc_news">5dp</dimen>
+    <dimen name="padding_textview_link_news">5dp</dimen>
 </resources>

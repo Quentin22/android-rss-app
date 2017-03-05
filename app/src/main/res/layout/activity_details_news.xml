@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    Details news activity layout
+    
+    @author Quentin22
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/item_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textview_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/padding_textview_desc_news" />
+
+    <TextView
+        android:id="@+id/textview_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_textview_link_news" />
+</LinearLayout>

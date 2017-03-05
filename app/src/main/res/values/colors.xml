@@ -1,6 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!--
+    Colors resources
+
+    @author Quentin22
+-->
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#a9a9a9</color>
+    <color name="colorAccent">#54beff</color>
+    <color name="grey">#a7a7a7</color>
 </resources>
