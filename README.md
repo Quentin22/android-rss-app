@@ -22,13 +22,13 @@ L'application, doit afficher l’ensemble des news à la une avec au minimum le 
   - Activité composée d'une liste d'actualités. Chaque item est composé d'une vue personalisée
   - Activité composée du détail d'une actualité. En reprenant la vue personnalisée utilisée dans la liste de la première activité (pour éviter la redondance de code), la description et le lien de la source de l'article
   
-- Pour l'actualisation de la liste d'actualités, j'ai choisis d'utiliser le [Swipe-to-Refresh](https://developer.android.com/training/swipe/add-swipe-interface.html).
+- Pour l'actualisation de la liste d'actualités, j'ai choisi d'utiliser le [Swipe-to-Refresh](https://developer.android.com/training/swipe/add-swipe-interface.html).
   
 - Ajout d'une SnackBar pour afficher un message d'erreur à l'utilisateur lorsqu'il est impossible de récupérer le flux RSS (pas de connexion internet, serveur de lemonde.fr indisponible, retour du flux RSS non conforme au format attendu...).
 
 ### Problèmes rencontrés
 
-La principale difficulté que j'ai rencontré pour le développement de cette application était sur le parser du flux RSS.
+La principale difficulté que j'ai rencontrée pour le développement de cette application était sur le parser du flux RSS.
 
 ### Améliorations
 
@@ -36,7 +36,7 @@ Voici une liste des améliorations auxquelles j'ai pu penser.
 
 - Vérifier la connexion internet et s'il n'y a pas de connexion, proposer à l'utilisateur de l'activer.
 
-- Il serait intéressant de créer un menu latéral comportant les sections associés aux actualités :
+- Il serait intéressant de créer un menu latéral comportant les sections associées aux actualités :
 `http://www.lemonde.fr/`**`election-presidentielle-2017`**`/article...
 http://www.lemonde.fr/`**`international`**`/article...
 http://www.lemonde.fr/`**`police-justice`**`/article...
@@ -46,7 +46,7 @@ Lors de la récupération des actualités il serait possible de modifier les ite
 - La date de publication est disponible dans chaque actualité, il serait intéressant de l'afficher dans la vue de l'actualité en détail
 `pubDate>Sun, 05 Mar 2017 19:33:44 +0100</pubDate>`. Il faudrait parser la date pour la rendre plus lisible sur l'application. Soit en mettant le jour et l'heure de publication ou bien en mettant le temps écoulé depuis la publication (Principe des posts Facebook).
 
-- L'utilisation de fragments pourrait également être intéressant avec l'ajout d'une animation lors de l'affichage et de la fermeture du fragment de détail d'une actualité.
+- L'utilisation de fragments pourrait également être intéressante avec l'ajout d'une animation lors de l'affichage et de la fermeture du fragment de détail d'une actualité.
 
 - Créer un service qui de manière périodique mettrait à jour les actualités.
 
