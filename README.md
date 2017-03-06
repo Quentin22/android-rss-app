@@ -12,7 +12,7 @@ L'application, doit afficher l’ensemble des news à la une avec au minimum le 
 ### Choix
 - Pour le développement de cette application, j'ai choisi de cibler la version Android 7.1 (Nougat) avec une compatibilité minimum jusqu'à la version 6.0 (Marshmallow). Pour un développement en production j'aurais plutôt choisi la version 5.1 (Lollipop) avec une compatibilité minimum jusqu'à la version 4.4 (KitKat) dans le but de cibler le plus d'utilisateur possible.
 
-- Pour la gestion des images, mon choix s'est porté sur la bibliothèque [Picasso](http://square.github.io/picasso/) car il permet de faire beaucoup de choses intéressantes.
+- Pour la gestion des images, mon choix s'est porté sur la bibliothèque [Picasso](http://square.github.io/picasso/) car elle permet de faire beaucoup de choses intéressantes.
   - Téléchargement de l’image de façon asynchrone depuis une URL
   - Gestion du cache d’une image
   - Réduction de la taille d’une image
