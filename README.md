@@ -21,6 +21,8 @@ L'application, doit afficher l’ensemble des news à la une avec au minimum le 
 - J'ai également choisis d'utiliser deux activités:
   - Activité composée d'une liste d'actualités. Chaque item est composé d'une vue personalisée.
   - Activité composée du détail d'une actualité. En reprenant la vue personnalisée utilisée dans la liste de la première activité (pour éviter la redondance de code), la description et le lien de la source de l'article.
+  
+- Ajout d'une SnackBar pour afficher un message d'erreur à l'utilisateur lorsqu'il est impossible de récupérer le flux RSS (pas de connexion internet, serveur de lemonde.fr indisponible, retour du flux RSS non conforme au format attendu...)
 
 ### Problèmes rencontrés
 
@@ -28,7 +30,11 @@ La principale difficulté que j'ai rencontré pour le développement de cette ap
 
 ### Améliorations
 
-- Concernant les améliorations il serait intéressant de créer un menu latéral comportant les sections associés aux actualités :
+Voici une liste des améliorations auxquelles j'ai pu penser :
+
+- Vérifier la connexion internet et s'il n'y a pas de connexion, proposer à l'utilisateur de l'activer.
+
+- Il serait intéressant de créer un menu latéral comportant les sections associés aux actualités :
 `http://www.lemonde.fr/`**`election-presidentielle-2017`**`/article...
 http://www.lemonde.fr/`**`international`**`/article...
 http://www.lemonde.fr/`**`police-justice`**`/article...
