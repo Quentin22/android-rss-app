@@ -18,7 +18,7 @@ L'application, doit afficher l’ensemble des news à la une avec au minimum le 
   - Réduction de la taille d’une image
   - Insertion de l’image dans une ImageView
 
-- J'ai également choisis d'utiliser deux activités.
+- J'ai également choisi d'utiliser deux activités.
   - Activité composée d'une liste d'actualités. Chaque item est composé d'une vue personalisée
   - Activité composée du détail d'une actualité. En reprenant la vue personnalisée utilisée dans la liste de la première activité (pour éviter la redondance de code), la description et le lien de la source de l'article
   
